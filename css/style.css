@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.p0{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../images/My\ project.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    height: 60px;
+    background-color: rgba(128, 128, 128, .4);
+}
+
+
+.home_contenido{
+    height: calc(100vh - 60px);
+}
+
+.home__contenido__logo{
+    font-family: 'Titan One', cursive;
+    text-align: center;
+}
+
+.home__contenido__eslogan{
+    font-family: 'Titan One', cursive;
+    text-align: center;
+}
+
+footer{
+    background-image: url(../images/My\ project.png);
+}
+
+/* ESTILOS PARA SERVICIOS */
+
+.servicio__imagen{
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* TAMAÑOS ORIENTACION VERTICAL */
+.fontSizeLogo{
+    font-size: 15vw;
+}
+.fontSizeFooter{
+    font-size: 25px;
+}
+.widthImgFooter{
+    width: 14vw;
+}
+.fontSizeMenu{
+    font-size: 7vw;
+}
+.fontSizeBotonMenu{
+    font-size: 35px;
+}
+
+/* CAMBIO DE TAMAÑOS EN ORIENTACION HORIZONTAL */
+@media (orientation:landscape){
+
+    .fontSizeLogo{
+        font-size: 15vh;
+    }
+    .widthImgFooter{
+        width: 8vh;
+    }
+    .fontSizeMenu{
+        font-size: 7vh;
+    }
+    .fontSizeBotonMenu{
+        font-size: 7vh;
+    }
+}
+
