@@ -49,6 +49,10 @@ footer{
     object-fit: cover;
 }
 
+/* SOBRE MI */
+.iframe{
+    height: 500px;
+}
 /* TAMAÑOS ORIENTACION VERTICAL */
 .fontSizeLogo{
     font-size: 15vw;
